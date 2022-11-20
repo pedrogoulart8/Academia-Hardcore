@@ -1,0 +1,73 @@
+.bg-1{
+    background-image: url(../img/Background.jpg);
+}
+
+.bg-2{
+    background-image: url(../img/background-2.jpg);
+}
+
+
+
+.hero-section{
+
+    background-size: cover;
+    background-position: bottom left;
+    height: 100vh; //tamanho certinho do navegador
+    
+
+    display: flex;
+    align-items: center;
+
+
+
+    .container{
+        position: relative; //posição em relação a ele mesmo
+        top: 65px;
+    }
+
+
+    h1{
+        margin: 0; //margin 0 pra nao seguir a margem do tamanho grande do texto
+        font-size: 96px;
+        line-height: 80%;
+        color: $light;
+        max-width: 926px;
+    }
+
+    p{
+        font-size: 24px;
+        line-height: 100%;
+        color: $light;
+        max-width: 641px;
+    }
+
+}
+
+
+@media (max-width:1200px){
+
+
+
+    .hero-section{
+
+        
+        height: 600px;
+
+        h1{
+
+            font-size: 50px;
+    
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+    }
+
+  
+    
+
+}
+
+

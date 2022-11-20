@@ -1,0 +1,48 @@
+
+//botões pelo site
+.btn{
+
+   @include button('btn-primary');
+
+    &:hover{
+        background-color: $primaryDark
+    }
+}
+
+
+.btn-form{
+    @include button('btn-form');
+}
+
+
+.btn-whatsapp{
+    @include button('btn-wpp');
+}
+
+
+
+
+.btn-outline{
+    background-color: transparent;
+    border: solid 2px $primary;
+    color: $primary;
+    
+    &:hover{
+        background-color: $primary;
+        color: white;
+    }
+
+}
+
+/////////// RESPONSIVO \\\\\\\\\\\\\\
+
+
+
+@media (max-width:1199px){
+
+    .container{
+        box-sizing: border-box;
+    }
+
+}
+

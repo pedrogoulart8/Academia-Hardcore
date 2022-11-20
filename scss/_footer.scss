@@ -1,0 +1,21 @@
+
+.footer{
+    background-color: $primary;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.midias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    a{
+        margin-left: 10px;
+        margin-bottom: 70px;
+    }
+
+}

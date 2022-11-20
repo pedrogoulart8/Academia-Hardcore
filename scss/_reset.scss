@@ -1,0 +1,51 @@
+
+html{
+    scroll-behavior: smooth; //SCROLLAR DE FORMA SUAVE O SITE INTEIRO, QUANDO USADO LINKS ANCORA
+}
+
+div{
+    scroll-margin-top: 90px; //ASSIM QUE SCROLLAR, PEDIR 90PX DE MARGIN TOP PRA TODAS AS DIVS. FICA MELHOR POSICIONADO APÓS O SCROL
+}
+
+
+body{
+    margin: 0;
+    font-family: $font;
+    background-color: $dark;
+    text-transform: uppercase; //texto todo maiusculo
+}
+
+.bx-wrapper{ //Tirar borda e sombra de uma classe dentro slider
+    border: none;
+    box-shadow: none;
+} 
+
+
+h2{
+    color:$light;
+    font-size: 48px;
+    margin: 0;
+}
+
+h3{
+    color:$light;
+    font-size: 36px;
+    margin: 0;
+}
+
+
+p{
+    color:$light;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+
+.container{
+    max-width: 1140px !important;
+}
+
+
+img{
+    max-width: 100%;
+}

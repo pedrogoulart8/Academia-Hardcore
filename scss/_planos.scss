@@ -1,0 +1,102 @@
+.planos{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+
+    .header-planos{
+        text-align: center;
+        max-width: 736px;
+        margin: 0 auto;
+    }
+
+
+    .card-plano{
+        background-color: $light;
+        padding: 40px 30px;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    h3{
+        font-size: 36px;
+        color: $grey;
+        text-align: center;
+        margin: 0;
+    }
+
+    p{
+        color: $greyDark;
+        text-align: center;
+    }
+
+    .preço{
+        color: $primary;
+        transform: scale(2);
+        font-weight: 700;   
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .selo{
+        width: 100px;
+        height: 100px;
+        background-color: $primary;
+        border: solid 3px white;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: rotate(22.53deg);
+
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        box-shadow: 3px 3px 10px #000;
+    }
+
+    span{
+        font-size: 18px;
+        color: white;
+        line-height: 80%;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-position: inside; // alinhar lista no botão
+        color: $grey;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .btn{
+        display: block;
+        text-align: center;
+    }
+
+
+
+}
+
+
+///////// RESPONSIVO \\\\\\\\\\
+
+@media (max-width: 992px){
+
+    .planos{
+
+        transform: scale(1);
+
+        .preço{
+            transform: scale(1);
+            font-size: 48px;
+        }
+
+        .selo{
+            top: -10px;
+            right: 10px;
+        }
+
+    }
+
+}

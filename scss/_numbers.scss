@@ -1,0 +1,37 @@
+
+.numbers{
+
+    padding: 70px 0;
+    position: relative; // Elemento pai pra ser usado o position absolute de baixo. Usado "relative" apenas pra ter o position, sem precisar alterar nada nessa seção
+
+    .card-number{
+
+        text-align: center;
+        
+
+        p{
+            margin: 0;
+            font-size: 96px;
+            color: $grey;
+            font-weight: 700;
+            line-height: 100%;
+        }
+
+        span{
+            font-size: 48px;
+            color: $greyDark;
+            font-weight: 700;
+            position: relative;
+            top: -20px;   
+        }
+
+
+    }
+
+    .img-atleta{
+        position: absolute; //posição em relação ao elemento pai, desde que ele tenha position (senao vai pro body)
+        bottom: 0; //base do bottom do elemento pai
+    }
+
+
+}
