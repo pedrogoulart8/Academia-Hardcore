@@ -1,29 +1,31 @@
-.bg-1{
+.bg-1 {
     background-image: url(../img/Background.jpg);
+
 }
 
-.bg-2{
+.bg-2 {
     background-image: url(../img/background-2.jpg);
+
 }
 
 
 
-.hero-section{
+.hero-section {
 
     background-size: cover;
     background-position: bottom left;
     height: 100vh; //tamanho certinho do navegador
-    
+
     display: flex;
     align-items: center;
 
-    .container{
+    .container {
         position: relative; //posição em relação a ele mesmo
         top: 65px;
     }
 
 
-    h1{
+    h1 {
         margin: 0; //margin 0 pra nao seguir a margem do tamanho grande do texto
         font-size: 96px;
         line-height: 80%;
@@ -31,7 +33,7 @@
         max-width: 926px;
     }
 
-    p{
+    p {
         font-size: 24px;
         line-height: 100%;
         color: $light;
@@ -40,28 +42,69 @@
 
 }
 
+@media (max-width:1200px) {
 
-@media (max-width:1200px){
 
+    .hero-section {
 
-    .hero-section{
+        height: 100vh;
 
-        
-        height: 600px;
-
-        h1{
+        h1 {
 
             font-size: 50px;
-    
+
         }
 
-        p{
+        p {
             font-size: 18px;
         }
 
     }
-   
+
 
 }
 
 
+@media (max-width:992px) {
+
+
+
+    .hero-section {
+
+        height: 80vh;
+
+        h1 {
+
+            font-size: 45px;
+
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+    }
+
+
+}
+
+@media (max-width:720px) {
+
+
+    .hero-section {
+
+
+        h1 {
+
+            font-size: 40px;
+
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+    }
+
+
+}
